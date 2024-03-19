@@ -18,3 +18,10 @@ function validarNombre(nombre){
     }
     return ''
 }
+
+function validarCiudad(ciudad){
+    if(ciudad.length === 0){
+        return 'Debes seleccionar una ciudad'
+    }
+    return ''
+}
