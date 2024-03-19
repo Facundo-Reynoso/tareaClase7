@@ -25,3 +25,13 @@ function validarCiudad(ciudad){
     }
     return ''
 }
+
+function validarDescripcionRegalo(descripcionRegalo){
+    if(descripcionRegalo.length === 0){
+        return 'Este campo debe tener al menos un caracter'
+    }
+    if(nombre.length >= 50){
+        return 'Este campo debe tener menos de 50 caracteres'
+    }
+    return ''
+}
