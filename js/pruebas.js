@@ -17,3 +17,4 @@ function probarValidarCiudad(){
       'Validar ciudad no validó que se deba seleccionar una ciudad'
    )
 }
+probarValidarCiudad()
