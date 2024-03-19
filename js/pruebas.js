@@ -18,3 +18,15 @@ function probarValidarCiudad(){
    )
 }
 probarValidarCiudad()
+
+function probarValidarDescripcionRegalo(){
+   console.assert(
+      validarDescripcionRegalo('') === 'Este campo debe tener al menos un caracter',
+      'Validar descripción regalo no validó que el campo no sea vacio'
+   )
+   console.assert(
+      validarDescripcionRegalo('11111111111111111111111111111111111111111111111111') === 'Este campo debe tener menos de 50 caracteres',
+      'Validar Descripción regalo no validó que el campo tenga menos de 50 caracteres'
+   )
+}
+probarValidarDescripcionRegalo()
