@@ -10,3 +10,10 @@ console.assert(
  )
 }
 probarValidarNombre()
+
+function probarValidarCiudad(){
+   console.assert(
+      validarCiudad('') === 'Debes seleccionar una ciudad',
+      'Validar ciudad no validó que se deba seleccionar una ciudad'
+   )
+}
