@@ -13,8 +13,8 @@ function validarNombre(nombre){
     if(nombre.length === 0){
         return 'Este campo debe tener al menos un caracter'
     }
-    if(nombre.length >= 100){
-        return 'Este campo debe tener menos de 100 caracteres'
+    if(nombre.length >= 50){
+        return 'Este campo debe tener menos de 50 caracteres'
     }
     return ''
 }
@@ -30,8 +30,8 @@ function validarDescripcionRegalo(descripcionRegalo){
     if(descripcionRegalo.length === 0){
         return 'Este campo debe tener al menos un caracter'
     }
-    if(descripcionRegalo.length >= 50){
-        return 'Este campo debe tener menos de 50 caracteres'
+    if(descripcionRegalo.length >= 100){
+        return 'Este campo debe tener menos de 100 caracteres'
     }
     return ''
 }
