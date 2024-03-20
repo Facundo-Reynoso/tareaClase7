@@ -8,6 +8,11 @@ function probarValidarNombre(){
       validarNombre('11111111111111111111111111111111111111111111111111') === 'Este campo debe tener menos de 50 caracteres',
       'validar nombre no validó que el nombre tenga menos de 50 caracteres'
    )
+
+   console.assert(
+      validarNombre('Facundo') === '',
+      'validarNombre falló con un nombre valido'
+   )
 }
 probarValidarNombre()
 
