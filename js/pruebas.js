@@ -21,6 +21,11 @@ function probarValidarCiudad(){
       validarCiudad('') === 'Debes seleccionar una ciudad',
       'Validar ciudad no validó que se deba seleccionar una ciudad'
    )
+
+   console.assert(
+      validarCiudad('Tucuman') === '',
+      'validarCiudad falló con una ciudad valida'
+   )
 }
 probarValidarCiudad()
 
