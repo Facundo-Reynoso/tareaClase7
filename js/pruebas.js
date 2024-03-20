@@ -39,5 +39,9 @@ function probarValidarDescripcionRegalo(){
        === 'Este campo debe tener menos de 100 caracteres',
       'Validar Descripción regalo no validó que el campo tenga menos de 100 caracteres'
    )
+   console.assert(
+      validarDescripcionRegalo('computadora') === '',
+      'validarDescricionRegalo falló con un regalo valido'
+   )
 }
 probarValidarDescripcionRegalo()
